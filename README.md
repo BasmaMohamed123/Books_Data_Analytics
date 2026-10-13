@@ -1,8 +1,8 @@
-# CodeAlpha Data Science Internship
+# CodeAlpha Data Analytics Internship
 
 ## Project Overview
 
-This repository contains three data science tasks completed as part of the CodeAlpha Data Science Internship. The project covers web scraping, exploratory data analysis (EDA), data visualization, and an interactive dashboard built with Python.
+This repository contains three data analytics tasks completed as part of the CodeAlpha Data Analytics Internship. The project covers web scraping, exploratory data analysis (EDA), data visualization, and an interactive dashboard built with Python.
 
 ### Live Dashboard
 
@@ -100,7 +100,7 @@ The dataset contains 20 books scraped from the first page of Books to Scrape.
 ## Project Structure
 
 ```text
-CodeAlpha_DataScience/
+CodeAlpha_DataAnalytics/
 ├── app.py
 ├── scraper.py
 ├── eda.py
@@ -115,8 +115,8 @@ CodeAlpha_DataScience/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/BasmaMohamed123/CodeAlpha_DataScience.git
-cd CodeAlpha_DataScience
+git clone https://github.com/BasmaMohamed123/CodeAlpha_DataAnalytics.git
+cd CodeAlpha_DataAnalytics
 ```
 
 ### 2. Install the Required Libraries
@@ -157,12 +157,12 @@ Streamlit will provide a local URL where you can open and interact with the dash
 
 Alternatively, access the deployed dashboard online:
 
-**[https://basma-books-dashboard.streamlit.app/](https://basma-books-dashboard.streamlit.app/)**
+**[Open Live Dashboard](https://basma-books-dashboard.streamlit.app/)**
 
 ## GitHub Repository
 
-**[View Source Code on GitHub](https://github.com/BasmaMohamed123/CodeAlpha_DataScience)**
+**[View Source Code on GitHub](https://github.com/BasmaMohamed123/CodeAlpha_DataAnalytics)**
 
 ## Internship
 
-Completed as part of the CodeAlpha Data Science Internship, October–November 2026.
+Completed as part of the CodeAlpha Data Analytics Internship, October–November 2026.
