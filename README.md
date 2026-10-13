@@ -1,8 +1,10 @@
-# CodeAlpha Data Analytics Internship
+# Books Data Analytics
 
 ## Project Overview
 
-This repository contains three data analytics tasks completed as part of the CodeAlpha Data Analytics Internship. The project covers web scraping, exploratory data analysis (EDA), data visualization, and an interactive dashboard built with Python.
+This project explores book data through web scraping, exploratory data analysis (EDA), data visualization, and an interactive dashboard built with Python.
+
+It demonstrates practical data analytics skills, including data collection, cleaning, analysis, visualization, and interactive reporting.
 
 ### Live Dashboard
 
@@ -100,7 +102,7 @@ The dataset contains 20 books scraped from the first page of Books to Scrape.
 ## Project Structure
 
 ```text
-CodeAlpha_DataAnalytics/
+Books_Data_Analytics/
 ├── app.py
 ├── scraper.py
 ├── eda.py
@@ -115,8 +117,8 @@ CodeAlpha_DataAnalytics/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/BasmaMohamed123/CodeAlpha_DataAnalytics.git
-cd CodeAlpha_DataAnalytics
+git clone https://github.com/BasmaMohamed123/Books_Data_Analytics.git
+cd Books_Data_Analytics
 ```
 
 ### 2. Install the Required Libraries
@@ -161,8 +163,5 @@ Alternatively, access the deployed dashboard online:
 
 ## GitHub Repository
 
-**[View Source Code on GitHub](https://github.com/BasmaMohamed123/CodeAlpha_DataAnalytics)**
+**[View Source Code on GitHub](https://github.com/BasmaMohamed123/Books_Data_Analytics)**
 
-## Internship
-
-Completed as part of the CodeAlpha Data Analytics Internship, October–November 2026.
