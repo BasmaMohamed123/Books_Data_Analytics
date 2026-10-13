@@ -4,6 +4,14 @@
 
 This repository contains three data science tasks completed as part of the CodeAlpha Data Science Internship. The project covers web scraping, exploratory data analysis (EDA), data visualization, and an interactive dashboard built with Python.
 
+### Live Dashboard
+
+Explore the interactive dashboard online:
+
+**[Open Books Analysis Dashboard](https://basma-books-dashboard.streamlit.app/)**
+
+The dashboard allows users to search and filter books, explore price and rating distributions, and view book details through interactive charts.
+
 ## Tasks
 
 ### Task 1: Web Scraping
@@ -69,11 +77,11 @@ The dataset contains 20 books scraped from the first page of Books to Scrape.
 
 ## Key Findings
 
-- Average book price: approximately **£38.05**.
-- Price range: **£13.99–£57.25**.
-- Average rating: **2.85 out of 5**.
+- **Average book price:** Approximately £38.05.
+- **Price range:** £13.99–£57.25.
+- **Average rating:** 2.85 out of 5.
 - One-star books were the most common rating category in this sample.
-- The Pearson correlation between price and rating was approximately **-0.076**, indicating no clear linear relationship in this small sample.
+- The Pearson correlation between price and rating was approximately -0.076, indicating no clear linear relationship in this small sample.
 - Three-star books had the highest average price, while four-star books had the lowest average price.
 
 **Limitation:** These findings describe only 20 books collected from the first page of the website. They should not be generalized to all books on the website.
@@ -89,24 +97,35 @@ The dataset contains 20 books scraped from the first page of Books to Scrape.
 - Streamlit
 - Plotly
 
-## How to Run
+## Project Structure
 
-### 1. Clone the repository
-
-```bash
-git clone <your-repository-url>
-cd <your-repository-folder>
+```text
+CodeAlpha_DataScience/
+├── app.py
+├── scraper.py
+├── eda.py
+├── eda.ipynb
+├── books.csv
+├── requirements.txt
+└── README.md
 ```
 
-Replace the placeholders with your actual GitHub repository URL and folder name.
+## How to Run
 
-### 2. Install the required libraries
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/BasmaMohamed123/CodeAlpha_DataScience.git
+cd CodeAlpha_DataScience
+```
+
+### 2. Install the Required Libraries
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-### 3. Run the web scraper
+### 3. Run the Web Scraper
 
 ```bash
 python scraper.py
@@ -114,13 +133,13 @@ python scraper.py
 
 This generates or updates `books.csv`.
 
-### 4. Run the EDA script
+### 4. Run the EDA Script
 
 ```bash
 python eda.py
 ```
 
-### 5. Open the visualization notebook
+### 5. Open the Visualization Notebook
 
 ```bash
 jupyter notebook eda.ipynb
@@ -128,13 +147,21 @@ jupyter notebook eda.ipynb
 
 Run all notebook cells to view the visualizations.
 
-### 6. Run the interactive dashboard
+### 6. Run the Interactive Dashboard
 
 ```bash
 python -m streamlit run app.py
 ```
 
 Streamlit will provide a local URL where you can open and interact with the dashboard.
+
+Alternatively, access the deployed dashboard online:
+
+**[https://basma-books-dashboard.streamlit.app/](https://basma-books-dashboard.streamlit.app/)**
+
+## GitHub Repository
+
+**[View Source Code on GitHub](https://github.com/BasmaMohamed123/CodeAlpha_DataScience)**
 
 ## Internship
 
